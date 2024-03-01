@@ -1,9 +1,20 @@
-import './App.css';
+import "./App.css";
+import StoreListing from "./StoreListing";
+import TopBar from "./TopBar";
+import Banner from "./Banner";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <nav>
+        <TopBar />
+      </nav>
+      <main>
+        <div>
+        <Banner />
+        </div>
+        <StoreListing />
+      </main>
     </div>
   );
 }
